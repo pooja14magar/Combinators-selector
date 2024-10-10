@@ -1,0 +1,39 @@
+body{
+    font-family: arila;
+}
+#box1{
+    border: 2px solid black;
+    padding: 10px;
+}
+#box2{
+    border: 2px solid black;
+    padding: 10px;
+}
+/*descendant selector*/
+/*#box p{
+    color:red;
+}
+span{
+    color:green;
+}*/
+/*Direct child selector*/
+/*#list li{
+    color:red
+}
+#list >li{
+    color:green
+}
+#box1 >p{
+    color: blue;
+}
+*/
+/* Adjacent Sibiling
+ul+p{
+    color: blue;
+}
+
+*/
+/* General sibiling*/
+ul~p{
+    color: blue;
+}
